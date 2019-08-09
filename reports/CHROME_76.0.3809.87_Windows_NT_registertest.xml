@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="2"
+            tests="4">
+
+  <testsuite name="registertest"
+    errors="2" failures="2" hostname="" id="" package="registertest" skipped="0"
+    tests="4" time="20.09" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="registertest" time="0.4710" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" classname="registertest" time="2.938" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to Register with a username and no password" classname="registertest" time="3.231" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Register with username and password" classname="registertest" time="13.45" assertions="4">
+
+    
+
+      <failure message="Testing if element &lt;#error&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\page-objects\commandsRegister.js:20:22)
+    at Object.Register with username and password (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\tests\registertest.js:41:10)</failure>
+
+      <failure message="Testing if element &lt;#error&gt; contains text: &#34;User name or password is Invalid&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;User name or password is Invalid&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\page-objects\commandsRegister.js:21:12)
+    at Object.Register with username and password (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\tests\registertest.js:41:10)</failure>
+
+    <failure message="    at Page.validateError (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\page-objects\commandsRegister.js:21:12)">    at Object.Register with username and password (D:\AutomationNodeJs\Nightwatch\Assignments\assignment6\tests\registertest.js:41:10)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
